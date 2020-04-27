@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Diseño de sitios web</title>
+    <meta charset="UTF-8">
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/scripts.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+</head>
+
+<body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+    <header>
+        <div id="logo">
+            <a>
+                <img src="../Imagen/logoUNAD-HD.jpg">
+            </a>
+        </div>
+        <div id="imag">
+            <a>
+                <img src="../Imagen/Cabecera.jpg">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a>
+            </li>
+            <li><a href="#">Estructura Basica</a>
+                <ul>
+                    <li><a href="EB_Etiquetas_Atributos_Valores.html">Etiquetas, atributos y valores</a></li>
+                    <li><a href="EB_Html_head_body.html">Html, Head, Body</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Navegacion</a>
+                <ul>
+                    <li><a href="Navegacion.html">Externa e interna Nav Ul Ol Li</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Multimedia</a>
+                <ul>
+                    <li><a href="Video.html">Multimedia 1</a></li>
+                    <li><a href="Video_2.html">Multimedia 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Documento</a>
+                <ul>
+                    <li><a href="Documento.html">Material Formato Guion OVI</a></li>
+                    <li><a href="Autor.html">Autor</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-twitter"></a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article>
+            <h1>Navegación externa e interna (NAV -UL - OL - LI)</h1>
+            <div id="Estructura1">
+                <div class="contenedor">
+                    <div id="pestanas">
+                        <ul id=lista>
+                            <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>NAV</a>
+                            </li>
+                            <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>UL</a>
+                            </li>
+                            <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>OL</a>
+                            </li>
+                             <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>LI</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="contenidopestanas">
+                        <div id="cpestana1">
+                            <h2>NAV</h2>El elemento nav es un contenedor para enlaces de navegación, que se supone proveen formas de acceder a las secciones del sitio web, así como a documentos externos. Se supone que los vínculos dentro de este elemento corresponden a un bloque de navegación principal únicamente.<br><br>
+                            El elemento nav puede ser una buena forma de mejorar la accesibilidad de un sitio web. Algunos navegadores, como los navegadores de voz, pueden proveer la información dentro de este elemento a pedido, o ignorarla al buscar el contenido principal.<br><br>
+
+                            No es requerido que los vínculos que habitualmente se encuentran al final de un documento (contacto, compartir, información legal, etc.) pertenezcan a un elemento nav. El elemento footer en sí mismo es suficiente en estos casos.<br><br>
+
+                            Ejemplo<br><br>
+
+                            Debajo verás una lista de vínculos a las secciones principales de un sitio web, correctamente encerradas por un elemento nav. Este bloque de navegación precede al contenido principal del documento, como puede suceder en ejemplos reales.<br><br>
+
+                            Nota que las secciones nav también pueden utilizarse para proveer vínculos navegacionales dentro del documento. Este es el caso de las tablas de contenido como la utilizada al comienzo de este documento.<br><br>
+
+                            &lt;nav&gt;<br>
+
+                              &lt;ul&gt;<br>
+
+                                &nbsp;&nbsp; &lt;li>&lt;a href="/es/"&gt;Inicio&lt;/a&gt;&lt;/li&gt;<br>
+
+                                &nbsp;&nbsp; &lt;li>&lt;a href="/es/tutorials.html"&gt;Tutoriales&lt;/a&gt;&lt;/li&gt;<br>
+
+                                &nbsp;&nbsp; &lt;li>&lt;a href="/es/reference.html"&gt;Referencia&lt;/a&gt;&lt;/li&gt;<br>
+
+                                &nbsp;&nbsp; &lt;li>&lt;a href="/es/tools-resources.html"&gt;Recursos&lt;/a&gt;&lt;/li&gt;<br>
+
+                                &nbsp;&nbsp; &lt;li>&lt;a href="/es/contactus.php"&gt;Contáctame&lt;/a&gt;&lt;/li&gt;<br>
+
+                              &lt;/ul&gt;<br>
+
+                            &lt;/nav&gt;<br><br>
+                            
+                        </div>
+                        <div id="cpestana2">
+                            <h2>UL</h2>El elemento ul representa una lista no ordenada de ítems que, en contraste con las lista ordenadas (elemento ol), no produce significados diferentes si el orden de los ítems es alterado. Los ítems de ambas listas, ordenadas y no ordenadas, son representados por el elemento li.<br><br>
+
+                            Se debería reemplazar sus funcionalidades con declaraciones de hojas de estilo.<br><br>
+
+                            EJEMPLOS<br><br>
+
+                            El siguiente ejemplo muestra un uso muy básico del elemento ul. Resulta fácil notar cómo el significado no se vería alterado si el orden de los ítems fuera cambiado.
+                            Accesos a<br><br>
+
+                            &lt;ul><br>
+
+                             &nbsp;&nbsp; &lt;li&gt;2 huevos grandes&lt;/li&gt;<br>
+
+                             &nbsp;&nbsp; &lt;li&gt;Sal marina y pimienta negra&lt;/li&gt;<br>
+
+                             &nbsp;&nbsp; &lt;li&gt;Un pequeña nuez de manteca&lt;/li&gt;<br>
+
+                             &nbsp;&nbsp; &lt;li&gt;Un puñado de queso&lt;/li&gt;<br>
+
+                            &lt;/ul&gt;<br><br>
+
+
+                        </div>
+                        <div id="cpestana3">
+                            <h2>OL</h2> El elemento ol representa una lista ordenada de ítems que, en contraste con las listas no ordenadas (elemento ul), produce un significado diferente si el orden de los ítems es alterado. Los ítems de ambas listas, ordenadas y no ordenadas, son representados por el elemento li.<br><br>
+
+                            HTML5 ha restituido los atributos start y type (que habían sido desaprovados en versiones anteriores) debido a que probaron tener un valor semántico.<br><br>
+
+                            Se debería reemplazar sus funcionalidades con declaraciones de hojas de estilo.<br><br>
+
+                            Ejemplo<br><br>
+
+                            El siguiente ejemplo muestra un uso muy básico del elemento ol. Resulta fácil notar cómo el significado se vería profundamente alterado si el orden de los ítems fuera cambiado.<br><br>
+
+                            &lt;ol&gt;<br>
+
+                               &nbsp;&nbsp; &lt;li>Encienda la computadora.&lt;/li&gt;<br>
+
+                               &nbsp;&nbsp; &lt;li>Presione la tecla &lt;kbd&gt;DEL&lt;/kbd&gt; cuando se le indique.&lt;/li&gt;<br>
+
+                               &nbsp;&nbsp; &lt;li&gt;Ingrese la contraseña&lt;/li&gt;<br>
+
+                            &lt;/ol&gt;<br><br>
+
+                        </div>
+                        <div id="cpestana4">                            
+                            <h2>LI</h2>El elemento li representa a un ítem en una lista, ya sea ordenada (elemento ol) o no ordenada (elemento ul).<br><br>
+
+                            En la especificación de HTML5, el atributo value de este elemento está permitido únicamente en listas ordenadas (ol). Su uso en listas no ordenadas (ul) es inválido.<br><br>
+
+                            Ejemplo<br><br>
+
+                            El siguiente ejemplo muestra un par de listas que corresponden a una receta, donde los ingredientes se muestran en un formato no ordenado (ul) mientras que el procedimiento pertenece a una lista ordenada (ol).<br><br>
+
+                            &lt;h1&gt;Receta básica de pan para comenzar a usar tu máquina&lt;/h1&gt;<br>
+
+                            &lt;h2&gt;Ingredientes&lt;/h2&gt;<br>
+
+                            &lt;ul&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;1 taza de agua tibia&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li>2 cucharadas de azúcar blanco&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;1 cubo de levadura fresca&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;1/4 taza de aceite vegetal&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;3 tazas de harina 000&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;1 cucharada de sal&lt;/li&gt;<br>
+
+                            &lt;/ul&gt;<br>
+
+                            &lt;h2&gt;Procedimiento&lt;/h2&gt;<br>
+
+                            &lt;ol&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;Coloca el agua, el azúcar y la levadura en la cavidad de la máquina de pan  deja que la levadura se disuelva y haga espuma por 10 minutos.&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;Agrega el aceite, la harina y la sal a la mezcla.&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;Selecciona la opción "Básico" o "Pan Blanco".&lt;/li&gt;<br>
+
+                              &nbsp;&nbsp; &lt;li&gt;Presiona "Comenzar".&lt;/li&gt;<br>
+
+                            &lt;/ol&gt;<br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div id="final">Bogota | <a href="Autor.html"> William Mora </a> | <a href="https://www.unad.edu.co/" target="_blank">Unad</a> | Abril 2020</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+}
+#logo{
+    width: auto;
+    height: auto;
+    padding: 30px 20px ;
+}
+#imag{
+    width: auto;
+    height: 120px;
+    padding: 3px;
+}
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:16px;
+} 
+nav li{
+      display:inline-block;
+      width:215px;
+      height:30px;
+      padding: 5px 8px;
+      background-color:#005883;
+      border:1px solid #005883;
+      text-align:center;
+      color:#fff;
+      position:relative;
+      margin-right:-7px;
+}        
+nav li:hover{
+      background-color:#F0B429;
+      border:1px solid #005883;
+      color:#fff;
+      height: 30px;
+      text-align: center;
+}         
+nav li>ul{
+      display:none;
+      }
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:41px;
+      right: 5px;
+}
+iframe{
+    margin: 20px;
+    border: 10px;
+    padding: 5px;
+    width: 80%;
+    height: 880px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+   }
+article h1{
+    font-size: 33px;
+    margin: 20px 130px 10px 130px;
+    padding: 20px;
+    text-align: center;
+    border:0px;
+    background-color: #fff;
+    text-shadow:5px 5px 12px #9D9999;
+}
+article p{
+    font-weight:100;
+    margin: 20px 130px 20px 130px;
+    padding: 25px;
+    text-align: justify;
+    background-color: #d8ecf7;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+}
+#Estructura1{
+    font-weight:100;
+    margin: 20px 130px 20px 130px;
+    padding: 25px;
+    text-align: justify;
+    background-color: #d8ecf7;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+}
+#ListaE1{
+    margin: 25px;
+}
+#pE1{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0);
+    color:red;
+}
+article h2{
+    margin: 50px 10px 10px 10px;
+    padding: 15px;
+    
+}
+#imagen_article{
+    
+    border-radius: 10px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+    padding: 1px;
+    margin: 1px 1px 20px 1px;
+}
+table {
+    display: block;
+    content: no-open-quote;
+    padding: 0px;
+    margin: 20px;
+    border: none;
+    width: 96%;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-weight:100;
+    overflow:scroll;
+    height:400px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+}
+th{
+    border: 2px solid #000;
+    text-align: center;
+    background-color: #005883;
+    color: #fff;
+}
+td { 
+    padding: 2px 2px;
+    text-align: center;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+tr{
+    
+}
+.social {
+	position: fixed; 
+	left: 0; 
+	top: 200px; 
+	z-index: 2000; 
+}
+ 
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color:#fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; 
+}
+.social ul li .icon-twitter {
+    background: #269ABF;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../Imagen/Twitter-Bird.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 30px;
+    background-position: center;
+}
+.social ul li a:hover {
+    background: #269ABF;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url(../Imagen/Twitter-Bird.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 30px;
+    background-position: center;
+    padding: 10px 30px; 
+}
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #005883;
+    border-radius: 6px;
+    border: 2px solid #005883;    
+}
+.boton:hover{
+    color: #005883;
+    background-color: #ffffff;
+  }
+div #botones{
+    text-align: center;
+}
+hr{
+    border-color: seagreen;
+    width: 75%;
+    border: 2px;
+}
+#final{
+    background: #005883;
+    padding: 25px;
+    border: 20px; 
+}
+#final a{
+    color:#fff;    
+}
+footer{
+    color:#fff;
+}
+
+.autor{
+    display: table;
+    margin: 10px;
+    padding: 5px;
+    height: auto;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9); 
+    font-family: inherit;
+    font-weight: bold;
+}
+.autor td{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+.autor tr{
+    border:none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;    
+}
+.autor img{
+    margin: 10px;
+    padding: 1px;
+    height: 180px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+}
+#runad{
+    margin: 20px;
+    border: 10px;
+    padding: 5px;
+    width: 410px;
+    height: auto;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.9);
+}
+
+----
+.contenedor {
+background: black;
+}
+.contenedor .titulo {
+    font-size: 3.5ex;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#pestanas {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-transform:rotate(0deg);
+}
+#pestanas li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background:#005883;
+    padding: 0px 0px 0px 1px;
+}
+#pestanas a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+#contenidopestanas {
+    clear: both;
+}

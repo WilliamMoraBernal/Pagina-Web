@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Diseño de sitios web</title>
+    <meta charset="UTF-8">
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/scripts.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+</head>
+
+<body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+    <header>
+        <div id="logo">
+            <a>
+                <img src="../Imagen/logoUNAD-HD.jpg">
+            </a>
+        </div>
+        <div id="imag">
+            <a>
+                <img src="../Imagen/Cabecera.jpg">
+            </a>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a>
+            </li>
+            <li><a href="#">Estructura Basica</a>
+                <ul>
+                    <li><a href="EB_Etiquetas_Atributos_Valores.html">Etiquetas, atributos y valores</a></li>
+                    <li><a href="EB_Html_head_body.html">Html, Head, Body</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Navegacion</a>
+                <ul>
+                    <li><a href="Navegacion.html">Externa e interna Nav Ul Ol Li</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Multimedia</a>
+                <ul>
+                    <li><a href="Video.html">Multimedia 1</a></li>
+                    <li><a href="Video_2.html">Multimedia 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Documento</a>
+                <ul>
+                    <li><a href="Documento.html">Material Formato Guion OVI</a></li>
+                    <li><a href="Autor.html">Autor</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <aside>
+        <div class="social">
+            <ul>
+                <li>
+                    <a href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon-twitter"></a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <section>
+        <article>
+            <h1>Estructura Basica HTML, HEAD y BODY</h1>
+            <div id="Estructura1">
+                <div class="contenedor">
+                    <div id="pestanas">
+                        <ul id=lista>
+                            <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Que es HTML</a>
+                            </li>
+                            <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Breve historia del HTML</a>
+                            </li>
+                            <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Referencias</a>
+                            </li>
+                             <li id="pestana4"><a href='javascript:cambiarPestanna(pestanas,pestana4);'>Que es el HEAD</a>
+                            </li>
+                            <li id="pestana5"><a href='javascript:cambiarPestanna(pestanas,pestana5);'>Que es el BODY</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="contenidopestanas">
+                        <div id="cpestana1">
+                            <h2>HTML</h2>Es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la sigla que corresponde a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto, que podría ser traducido como Lenguaje de Formato de Documentos para Hipertexto.
+                            <br>
+                            <br>Se trata de un formato abierto que surgió a partir de las etiquetas SGML (Standard Generalized Markup Language). Concepto traducido generalmente como «Estándar de Lenguaje de Marcado Generalizado» y que se entiende como un sistema que permite ordenar y etiquetar diversos documentos dentro de una lista. Este lenguaje es el que se utiliza para especificar los nombres de las etiquetas que se utilizarán al ordenar, no existen reglas para dicha organización, por eso se dice que es un sistema de formato abierto.
+                            <br>
+                            <br>EL HTML se encarga de desarrollar una descripción sobre los contenidos que aparecen como textos y sobre su estructura, complementando dicho texto con diversos objetos (como fotografías, animaciones, etc).
+                            <br>
+                            <br>Es un lenguaje muy simple y general que sirve para definir otros lenguajes que tienen que ver con el formato de los documentos. El texto en él se crea a partir de etiquetas, también llamadas tags, que permiten interconectar diversos conceptos y formatos.
+                            <br>
+                            <br>Para la escritura de este lenguaje, se crean etiquetas que aparecen especificadas a través de corchetes o paréntesis angulares: &lt; y &gt;. Entre sus componentes, los elementos dan forma a la estructura esencial del lenguaje, ya que tienen dos propiedades (el contenido en sí mismo y sus atributos).
+                            <br>
+                            <br>Por otra parte, cabe destacar que el HTML permite ciertos códigos que se conocen como scripts, los cuales brindan instrucciones específicas a los navegadores que se encargan de procesar el lenguaje. Entre los scripts que pueden agregarse, los más conocidos y utilizados son JavaScript y PHP.
+                            <br>
+                            <br>El marcado estructural es el que estipula la finalidad del texto, aunque no define cómo se verá el elemento. El marcado presentacional, por su parte, es el que se encarga de señalar cómo se verá el texto más allá de su función.
+                            <br>
+                            <br>Para conocer el código HTML que utiliza una página web, hay que seleccionar Ver código fuente en nuestro navegador (como Internet Explorer o Mozilla Firefox). Al elegir esta opción, se abrirá el editor de texto con el código HTML de la página que se está visualizando.
+                        </div>
+                        <div id="cpestana2">
+                            <h2>Breve historia del HTML</h2> Este lenguaje fue desarrollado por la Organización Europea de Investigación Nuclear (CERN) en el año 1945 con la finalidad de desarrollar un sistema de almacenamiento donde las cosas no se perdieran, que pudieran ser conectadas a través de hipervínculos. Primeramente crearon un dispositivo llamado «memex», el cual era considerado como un suplemento para la memoria.
+                            <br>
+                            <br>Posteriormente, Douglas Engelbart, diseñó un entorno de trabajo por computadora que recibiría el nombre de oNLine System que poseía un catálogo para facilitar la tarea de búsqueda dentro de un mismo organismo.
+                            <br>
+                            <br>Recién en 1965, Ted Nelson acuñó el término hipervínculo, ideando una estructura que se encontraba conectada de forma electrónica y que más tarde permitiría la creación de la World Wide Web (1989), un sistema de hipertexto a través del cual era posible compartir una variada información sirviéndose de Internet (servía para la comunicación entre investigadores nucleares que formaran parte del CERN).
+                            <br>
+                            <br>El norteamericano Tim Berners-Lee fue el primero en proponer una descripción de HTML en un documento que publicó en 1991. Allí describía veintidós componentes que suponen el diseño más básico y simple del HTML.
+                            <br>
+                            <br>El tipo de codificación que se utilizó para el desarrollo de este sistema de hipervínculos debía ser comprendido, tanto por ordenadores tontos como por mega-estaciones, por eso fue necesario crear uno absolutamente simples, tanto en lo que respectaba al lenguaje de intercambio (HTML), como el que hacía referencia al protocolo de red (HTTP).
+                            <br>
+                            <br>Al día de hoy existen los Editores Web que permiten que los diseñadores, a través de herramientas gráficas que reciben el nombre de WYSIWYG puedan crear páginas web sin conocer el código html, este se crea de forma automatizada, dándole estructura a la web y permitiendo que sea más allá del ordenador donde es creada. Entre los recursos que pueden enlazarse al código HTML se encuentran fotografías, vídeos, archivos de otras webs o incluso de la misma y todo tipo de contenido que se encuentre subido a la red.
+                        </div>
+                        <div id="cpestana3">
+                            <h2>REFERENCIAS</h2> Autores: Julián Pérez Porto y Ana Gardey. Publicado: 2008. Actualizado: 2012.
+                            <br>
+                            <br>Definicion.de: Definición de html (https://definicion.de/html/)
+                        </div>
+                        <div id="cpestana4">                            
+                            <h2>HEAD</h2>Es la cabecera de un documento html comienza con la etiqueta &lt;head&gt; y se indica su final con la etiqueta &lt;/head&gt; se escribe así:
+                            <br><br>
+                            &lt;html&gt;<br>
+                                  &nbsp;&nbsp;&lt;head&gt;<br>
+                                  &nbsp;&nbsp;&nbsp;En esta parte va todo lo que pertenece al head<br>
+                                  &nbsp;&nbsp;&lt;/head&gt;<br>
+                                  &nbsp;&nbsp;&lt;html&gt;<br>
+                                  &nbsp;&nbsp;&lt;html&gt;<br>
+                            &lt;/html&gt;<br>
+                            <br>El HEAD es la parte donde se incluye la información acerca del documento, podríamos atrevernos a decir que el HEAD es una sección de un documento HTML meramente "técnica e informativa", pues la mayoría de esta información no la muestra el navegador al usuario e inclusive pudiéramos dejarla vacía y esto no afectaría al funcionamiento o la forma en que se visualiza la página, y si bien el HEAD de un documento HTML pudiera ir vacío siempre es mejor darles la suficiente importancia a las etiquetas que el HEAD contiene, mucho más aún si nuestro objetivo es publicar nuestro trabajo en la web, pues muchas de las etiquetas del HEAD son importantes para los buscadores y para un buen posicionamiento en los resultados de búsqueda.
+                            <br>
+                            <br>Bueno vamos al grano y conozcamos las etiquetas del HEAD.
+                            <br><br>
+                            <h3>TITLE:</h3><br>
+                            &lt;head&gt;<br>
+                            &nbsp;&nbsp;&lt;title&gt;Título de la página&lt;/title&gt;<br>
+                            &lt;/head&gt;
+                            <br>
+                            <br>Un elemento del HEAD visible desde el navegador, muy importante para los buscadores pues es el texto que se visualiza en los resultados de búsqueda.
+                            <br>
+                            <br>Me parece importante señalar que este elemento nada tiene que ver con el nombre del archivo pues son dos cosas totalmente distintas e independientes una de la otra, por ejemplo podríamos tener un archivo llamado index.html y en el código un &lt;title&gt;Página principal - Bienvenido &lt;/title&gt; y esto estaría bien.
+                            <br><br>
+                            <h3>META:</h3><br>&lt;head&gt;<br>
+                                  &lt;meta name="description" content="Artículos sobre HTML" /&gt;<br>
+                                  &lt;meta name="keywords" content="HTML,manual de HTML" /&gt;<br>
+                                  &lt;meta name="author" content="Israel Romero" /&gt;<br>
+                                  &lt;meta http-equiv="refresh" content="30" /&gt;<br>
+                                &lt;/head&gt;
+
+                            <br>
+                            <br>
+                            Una etiqueta con atributos. La función de esta etiqueta va a depender totalmente de los atributos y valores que contenga, en nuestro ejemplo las primeras 3 tienen los atributos "name" y "content" pero tienen valores diferentes, la primera (con valor "description") indica la descripción de la página, la segunda indica las palabras clave con la que los buscadores deberían de relacionarla, en el ejemplo se pretende que los buscadores muestren la página en sus resultados cuando alguien busque "HTML" o "manual de HTML", la tercera incluye el nombre del autor de la página. Ahora la cuarta etiqueta tiene atributos diferentes, en este caso esta etiqueta le dice al navegador que la página se debe actualizar cada 30 segundos. Hay algunos otros argumentos posibles para la etiqueta &lt;meta&gt;, pero el tema principal aquí es el HEAD por lo que tocará hablar del META más a fondo en otro post.<br><br>
+                            
+                            <h3>STYLE:</h3><br>
+                            &lt;head&gt;<br>
+                            &nbsp;&nbsp;&lt;style type="text/css"&gt;<br>
+                            &nbsp;&nbsp;    p {color:blue;}<br>
+                            &nbsp;&nbsp;  &lt;/style&gt;<br>
+                            &lt;/head&gt;<br><br>
+
+                            Con esta etiqueta se puede incluir código CSS dentro del documento HTML, en este ejemplo se le da un color azul a los párrafos, es decir a los fragmentos de texto contenidos por las etiquetas &lt;p&gt; &lt;/p&gt;.<br><br>
+
+                            <h3>SCRIPT:</h3><br>
+
+                            &lt;head&gt;<br>
+                            &nbsp;&nbsp;  &lt;script type="text/javascript"&gt;<br>
+                            &nbsp;&nbsp;    document.write("Hola")<br>
+                            &nbsp;&nbsp;  &lt;/script&gt;<br>
+                            &lt;/head&gt;<br><br>
+
+                            Otra más para agregar código de lenguajes ajenos a HTML, en este ejemplo agregamos código de JavaScript que lo único que hace es mostrarnos un texto que dice "Hola".<br>
+
+                            Bueno creo que con estas 4 etiquetas de ejemplo queda más claro lo que es el HEAD y su función en un documento HTML, otras etiquetas que pueden ir en esta sección son:<br><br>
+
+                            &lt;base&gt;<br>
+                            &lt;link&gt;<br>
+                            &lt;noscript&gt; &lt;/noscript&gt;<br>
+
+                        </div>
+                        <div id="cpestana5">
+                            <h2>Body</h2>Es la parte central de una página web, este se define por medio de la etiqueta BODY. En este artículo nos centraremos a hablar de esta etiqueta, sus atributos y propiedades.<br><br>
+
+                            De las dos partes en que se divide un documento HTML (HEAD y BODY), BODY es la segunda. BODY es la etiqueta usada para indicar el cuerpo de un documento HTML, es la parte donde se describe el contenido de la página (su estructura, su forma, sus colores, texto, y todo lo visual), su inicio lo indica la etiqueta &lt;body&gt; y su final con la etiqueta &lt;/body&gt;, se escribe así:<br><br>
+
+                            &lt;html&gt;<br>
+                              &lt;head&gt;<br>
+                              &lt;/head&gt;<br>
+                              &nbsp;&nbsp;&lt;body&gt;
+                                Todo lo que esté aquí pertenece al BODY
+                                Aquí va el diseño de la página y su contenido
+                              &lt;/body&gt;<br>
+                            &lt;/html&gt;<br><br>
+
+                            La variedad de etiquetas HTML que el BODY puede contener son mucho mas que las que existen para el HEAD, cosa bastante obvia pues la parte de mayor peso es el BODY.<br><br>
+
+                            Dentro de la etiqueta &lt;body&gt; se pueden agregar atributos para indicar un color y/o imagen de fondo de la página, color del texto, color de los links, pero en HTML5 se ha desaprobado el uso de estos atributos y esto se tiene que indicar con CSS, este hecho no significa que no funcionen, de hecho se pueden usar y funciona pero siempre es recomendable ajustarse a los estándares, por cuestiones de compatibilidad y cosas por el estilo. Aquí les dejo la lista de los atributos que pueden ir dentro de la etiqueta &lt;body&gt; y que anteriormente eran muy usados, pero mi recomendación es aprender CSS y seguir los nuevos estándares de la W3C.<br><br>
+
+                            background - Para especificar una imagen de fondo<br><br>
+
+                            &lt;body background="imagen.jpg"&gt;<br>
+                            bgcolor - Para especificar un color de fondo<br><br>
+
+                            &lt;body bgcolor="color"&gt;<br>
+                            link - Para especificar el color de los enlaces no visitados<br><br>
+
+                            &lt;body link="color"&gt;<br>
+                            alink - Para especificar el color de un enlace activo<br><br>
+
+                            &lt;body alink="color"&gt;<br>
+                            vlink - Para especificar el color de los enlaces visitados<br><br>
+
+                            &lt;body vlink="color"&gt;<br>
+                            text - Para especificar el color del texto de la página<br><br>
+
+                            &lt;body text="color"&gt;<br><br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div id="final">Bogota | <a href="Autor.html"> William Mora </a> | <a href="https://www.unad.edu.co/" target="_blank">Unad</a> | Abril 2020</div>
+    </footer>
+</body>
+
+</html>
